@@ -21,7 +21,7 @@
 </nav>
     <div class="container mt-3 col-md-3">
         <h2 class="text-center">Registro de Gastos</h2>
-        <form action="index.php" method="GET">
+        <form action="index.php" method="POST">
             <label class="form-label" for="nombre">Gastos:</label>
             <input type="hidden" id="accion" name="accion" value="agregar">
             <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Gastos" required><br>
@@ -43,7 +43,6 @@
                         </tr>
                     </thead>
             <tr>
-                   <td class="wrap d-inline-flex gap-1 botones justify-content-center">
             <?php
 
     ?>
